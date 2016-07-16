@@ -491,7 +491,7 @@ However, you may want to bundle a smaller package of `jsf`, because:
 * you don't need all languages from faker.js
 * you wish to use chance.js only and get rid of other dependencies
 * or for any other reason...
-In that case you may bundle the distribution yourself manually. It's easily achievable: just modify the [`lib/util/container.js`](lib/util/container.js) file and either remove o rmodify the `require` calls (they're directly used by browserify to include dependencies). Automation of this feature is expected in near future.
+In that case you may bundle the distribution yourself manually. It's easily achievable: just modify the [`lib/util/container.js`](lib/util/container.js) file and either remove or modify the `require` calls (they're directly used by browserify to include dependencies). Automation of this feature is expected in near future.
 
 ## Contribution
 
